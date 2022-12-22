@@ -21,7 +21,6 @@ jobs:
           # Check compilation works on common OSes
           # (i.e. no path issues)
           - ubuntu-latest
-          - macOS-latest
           - windows-latest
     runs-on: ${{ matrix.os }}
     steps:
